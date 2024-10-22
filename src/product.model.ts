@@ -1,4 +1,4 @@
-class Product {
+export class Product {
   title: string;
   price: number;
 
@@ -6,4 +6,10 @@ class Product {
     this.title = t;
     this.price = p;
   }
+
+  getInformation() {
+    return [this.title, `${this.price}`];
+  }
 }
+
+

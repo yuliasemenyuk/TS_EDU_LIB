@@ -16,6 +16,7 @@
     "@types/lodash": "^4.14.146"
   },
   "dependencies": {
+    "class-transformer": "^0.5.1",
     "lodash": "^4.17.15",
     "ts-loader": "^9.4.2",
     "typescript": "^4.9.5",
