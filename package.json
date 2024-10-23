@@ -1,7 +1,7 @@
 {
-  "name": "ts-edu-lib",
+  "name": "share_location",
   "version": "1.0.0",
-  "description": "Understanding TypeScript Course Setup",
+  "description": "share_location app",
   "main": "app.js",
   "scripts": {
     "start": "webpack-dev-server"
