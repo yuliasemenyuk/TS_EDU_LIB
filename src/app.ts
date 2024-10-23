@@ -1,9 +1,14 @@
+const form = document.querySelector("form")!;
+const addressInput = document.getElementById("address")! as HTMLInputElement;
 
+function searchAddressHandler(event: Event) {
+  event.preventDefault();
+  const eneteredAddress = addressInput.value;
 
+  //send to Google's API
+}
 
-
-
-
+form.addEventListener("submit", searchAddressHandler);
 
 // import { Product } from "./product.model";
 // // import 'reflect-metadata';
@@ -34,5 +39,3 @@
 //         console.log(newProd.getInformation())
 //     }
 // })
-
-
